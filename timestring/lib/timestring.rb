@@ -11,7 +11,7 @@ class TimeString
     end
 
     def to_a
-      [@hour, @min, @sec].zip(%w[hour minite second]).map { |count, unit| count.numbers_of_(unit) }.compact
+      [@hour, @min, @sec].zip(%w[hour minite second]).map { |count, unit| count.numbers_of(unit) }.compact
     end
 
     def to_sentence
@@ -21,7 +21,7 @@ class TimeString
 end
 
 class Numeric
-  def numbers_of_(sth)
+  def numbers_of(sth)
     self == 0 ? nil : "#{self} #{sth.pluralize(self)}"
   end
 end
