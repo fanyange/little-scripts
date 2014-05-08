@@ -6,7 +6,7 @@
 
 练习巩固了 Regular Expressions ，Object Oriented Programming，Unit Test 等等。
 
-一个蛋疼的应用，但是一个好的开始。
+一个蛋疼的脚本，但是一个好的开始。
 
 别管什么 DHH，我就是要 TDD，不如此则过分关注无谓细节。我要我的鲁棒性。哈~
 
