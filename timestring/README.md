@@ -2,7 +2,9 @@
 
 时间格式转换为数组或句子形式。
 
-形如 "hh:mm:ss(.nn)" 的格式转换为英文句子。
+形如 "hh:mm:ss(.nn)" 的格式转换为形如 "x hours, y minutes, z.nn seconds" 的英文句子。
+
+练习巩固了 Regular Expressions ，Object Oriented Programming，Unit Test 等等。
 
 一个蛋疼的应用，但是一个好的开始。
 
